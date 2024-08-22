@@ -2,7 +2,6 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: mera;
 }
 
 @font-face {
@@ -16,5 +15,25 @@
     background-image: url(back.jpg);
     background-size: cover;
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60%;
+    font-size: 10px;
+}
+.odin{
+    font-size: 30px;
+    margin-top: 20%;
+    width: 100%;
+    height: 80px;
+    font-family: mera;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
 
+}
+.odin img{
+    height: 100%;
 }
