@@ -5,6 +5,7 @@
 }
 body{
     display: flex;
+    height: 100vh;
 }
 
 @font-face {
@@ -42,7 +43,7 @@ body{
 }
 
 .pa{
-    height: 30%;
+    height: 30vh;
     width: 100%;
     font-size: 10px;
     padding: 100px 450px 60px 50px;
@@ -52,7 +53,7 @@ body{
 }
 .partt{
     width: 100%;
-    height: 40%;
+    height: 40vh;
 }
 button{
     width: 220px;
